@@ -1,0 +1,1 @@
+Next = cur->next;
