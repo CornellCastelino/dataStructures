@@ -1,0 +1,1 @@
+This code was part of a coding test for Hubspot which I wasn't able to complete at that time(1year ago) due to lack of knowledge to parse an cvs file. But after that test I have ever since worked on it and finally completing it, learning many new ways to code using python.
