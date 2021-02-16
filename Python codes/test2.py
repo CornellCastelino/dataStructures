@@ -25,9 +25,11 @@ def counterPair(a, Dates):
             pair.append(ans[i])
     ans = pair
     return ans                
+r = requests.get('https://candidate.hubteam.com/candidateTest/v3/problem/dataset?userKey=6b0464921453101b3f50f430818c')
+with open('partners.txt', 'w') as f:
+   f.write(r.text)
 
-
-with open("c:\\Users\\Cornell\\Google Drive\\vs code\\Hubspot Test\\partners.txt") as f:
+with open("partners.txt") as f:
     data = json.load(f)
 
 country = []
